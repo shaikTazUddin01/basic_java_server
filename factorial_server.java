@@ -4,7 +4,7 @@ import java.net.*;
 public class factorial_server {
 
     public static void main(String args[]) throws Exception {
-        ServerSocket ss = new ServerSocket(999);
+        ServerSocket ss = new ServerSocket(9999);
 
         System.out.println("server is waiting");
 
